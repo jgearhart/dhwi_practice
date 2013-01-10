@@ -13,63 +13,75 @@
  */
 
 html {
-	background-color: #63a8bf;
+	background-color: #f5b240;
 	padding: 40px; 
+	background-image: url(Unknown-1.jpeg);
+	background-repeat:no-repeat;
+	background-size: cover;
 }
 
 body {
 	font-family: Verdana, sans-serif;
 	width: 70%;
 	margin: 0 auto;
-	background-color: #fff;
 	padding: 20px 40px;
 	border: 10px double #000000;
 }
 
 header{
-	background-color: #c2e697;
 	color: #fff;
-	padding: 20px;
-	border: 10px double #000000;
+	padding: 50px;
+	border: 10px double #fff;
 }
+
 header h1 {
 	font-size: 46px;
+	color: #fff;
 }
 
 nav ul {
 	list-style:none;
 	margin-left:0;
-	padding-left:0;
+	padding-left: 0px;
+
 }
 
 nav li {
 	display:inline;
+	padding-right: 50px;
 }
 header a:link {color: #fff;}
 header a:visited {color: #fff;}
-header a:hover {color: #fff;}
+header a:hover {color: blue;}
 header a:focus {color: #fff;}
-header a:active {color: #fff;}
+header a:active {color: green;}
 
 table {
 	width: 100%;
 }
 
 thead th {
-	border-bottom: 5px solid #ccc;
+	border-bottom: 5px solid #fff;
 	text-align: left;
+	color: #fff;
 }
 
-th, 
+th,
 td {
 	padding: 5px 0;
 }
 
 tbody tr {
-	background-color: #eee;
+	
 }
 
 tbody tr:nth-child(even) {
-	background-color: #c2e697
+	background-color: #d9ceb0
 }
+
+a:link {color: #000000;}
+a:visited {color: #000000;}
+a:hover {color: #aba8a1;}
+a:focus {color: #dfc499;}
+a:active {color: #000000;}
 
